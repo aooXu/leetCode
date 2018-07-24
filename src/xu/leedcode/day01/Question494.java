@@ -1,6 +1,4 @@
 package xu.leedcode.day01;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Question494 {
@@ -13,7 +11,8 @@ public class Question494 {
         int firstNum = numArray[0];
         int arrSize = numArray.length;
         if(arrSize==1){
-            return (firstNum == targetSum) ? 1 : 0;
+            System.out.println(firstNum+","+targetSum);
+            return (firstNum == Math.abs(targetSum)) ? (firstNum==0)? 2 : 1 : 0;
         }
 
         int[] tmpArray = Arrays.copyOfRange(numArray, 1,arrSize);
