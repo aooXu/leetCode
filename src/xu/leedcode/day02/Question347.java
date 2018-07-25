@@ -3,54 +3,51 @@ package xu.leedcode.day02;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
 
 public class Question347 {
 
-    private HashMap<String, Integer> countMap = new HashMap<String, Integer>();
+    private HashMap<Integer, Integer> countMap = new HashMap<Integer, Integer>();
 
     public List<Integer> topKFrequent(int[] nums, int k) {
-        ArrayList<Integer> tmpResults = new ArrayList<>();
         for (int eachNum : nums) {
-            String eachKey = String.valueOf(eachNum);
-            countMap.merge(eachKey, 1, (a, b) -> a + b);
+            countMap.merge(eachNum, 1, (a, b) -> a + b);
         }
 
-        String[] sortedArr = mergeSort(countMap.keySet());
-        return tmpResults;
+        List<Integer> sortedArr = mergeSort(new ArrayList<Integer>(countMap.keySet()));
+        return sortedArr.subList(0, k);
     }
 
-    private List<String> mergeSort(List<String> keyList) {
+    private List<Integer> mergeSort(List<Integer> keyList) {
         int listSize = keyList.size();
-        if (listSize<= 1) {
+        if (listSize <= 1) {
             return keyList;
         }
 
-        List<String> first = keyList.subList(0, listSize/2);
-        List<String> second = keyList.subList(listSize/2, listSize);
+        List<Integer> first = keyList.subList(0, listSize / 2);
+        List<Integer> second = keyList.subList(listSize / 2, listSize);
 
-        mergeSort(first);
-        mergeSort(second);
+        first = mergeSort(first);
+        second = mergeSort(second);
+
         return merge(first, second);
     }
 
-    private List<String> merge(List<String> first, List<String> second) {
+    private List<Integer> merge(List<Integer> first, List<Integer> second) {
         int firstArrSize = first.size();
         int secondArrSize = second.size();
-        List<String> result = new ArrayList<String>(firstArrSize + secondArrSize);
-
-        int iFirst = 0 , iSecond = 0, iMerged = 0;
-        while (iFirst < firstArrSize&& iSecond < secondArrSize) {
-            if (countMap.get(iFirst).compareTo(countMap.get(iSecond)) < 0) {
-                result[iMerged] = first[iFirst];
-                iFirst++;
-            } else {
-                result[iMerged] = second[iSecond];
-                iSecond++;
-            }
-            iMerged++;
+        List<Integer> tmpRst = new ArrayList<Integer>();
+        int iFirst = 0, iSecond = 0;
+        while (iFirst < firstArrSize && iSecond < secondArrSize) {
+            Integer firstCount = countMap.get(first.get(iFirst));
+            Integer secondCount = countMap.get(second.get(iSecond));
+            tmpRst.add(
+                    (firstCount >= secondCount) ? first.get(iFirst++) : second.get(iSecond++)
+            );
         }
-
-        return result;
+        ;
+        tmpRst.addAll(
+                (iFirst == firstArrSize) ? second.subList(iSecond, secondArrSize) : first.subList(iFirst, firstArrSize)
+        );
+        return tmpRst;
     }
 }
