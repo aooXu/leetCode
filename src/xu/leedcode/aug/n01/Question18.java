@@ -10,12 +10,17 @@ public class Question18 {
 
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
-
+        getNumbers(intArrToIntList(nums), target, 4);
         return result;
     }
 
+    private List<Integer> intArrToIntList(int[] nums){
+        ArrayList<Integer> tmpArr = new ArrayList<Integer>();
+        for(int eachNum:nums) tmpArr.add(eachNum);
+        return tmpArr;
+    }
 
-    private void getNumbers(int[] nums, int target, int lest) {
+    private void getNumbers(List<Integer> nums, int target, int lest) {
         if(lest == 1){
             for(int eachNum: nums){
                 if(eachNum == target){
@@ -24,7 +29,11 @@ public class Question18 {
                 }
             }
         }else {
-
+            if(nums.size() == 0) return;
+            int numsSize = nums.size();
+            List<Integer> subList = (List<Integer>) nums.subList(0, numsSize-1);
+            getNumbers(subList, target, 4);
+            getNumbers(subList, target-nums.get(numsSize-1), 3);
         }
     }
 
@@ -34,6 +43,5 @@ public class Question18 {
         }else{
             tmpNumArray.set(index,num);
         }
-
     }
 }
