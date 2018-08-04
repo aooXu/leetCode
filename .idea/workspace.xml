@@ -12,38 +12,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24408">
-              <caret line="701" column="46" lean-forward="false" selection-start-line="701" selection-start-column="37" selection-end-line="701" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n02/Question01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Question15.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n02/Question15.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="30" column="81" lean-forward="false" selection-start-line="30" selection-start-column="81" selection-end-line="30" selection-end-column="81" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Question560.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n02/Question560.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +55,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Question326.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Question326.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n04/Question326.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question16.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question56.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question56.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#242#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question463.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question463.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -179,6 +180,9 @@
         <option value="$PROJECT_DIR$/src/xu/leedcode/aug/n04/Question10.java" />
         <option value="$PROJECT_DIR$/src/xu/leedcode/aug/n04/Question92.java" />
         <option value="$PROJECT_DIR$/src/xu/leedcode/aug/n04/Question326.java" />
+        <option value="$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question16.java" />
+        <option value="$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question56.java" />
+        <option value="$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question463.java" />
       </list>
     </option>
   </component>
@@ -188,7 +192,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="447" />
     <option name="y" value="-33" />
     <option name="width" value="3072" />
@@ -251,6 +255,14 @@
               <item name="leedcode" type="462c0819:PsiDirectoryNode" />
               <item name="aug" type="462c0819:PsiDirectoryNode" />
               <item name="n02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leedcode" type="462c0819:PsiDirectoryNode" />
+              <item name="aug" type="462c0819:PsiDirectoryNode" />
+              <item name="n03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -411,15 +423,15 @@
       <workItem from="1532604854538" duration="9372000" />
       <workItem from="1533137902603" duration="3495000" />
       <workItem from="1533224335455" duration="3856000" />
-      <workItem from="1533396708341" duration="1840000" />
+      <workItem from="1533396708341" duration="2417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50851000" />
+    <option name="totallyTimeSpent" value="51428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="2762" height="1770" extended-state="7" />
+    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -508,29 +520,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/xu/leedcode/day03/Question121.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xu/leedcode/day02/Question198.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/xu/leedcode/day02/Question22.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -550,6 +539,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91344">
           <caret line="3806" column="31" lean-forward="false" selection-start-line="3806" selection-start-column="19" selection-end-line="3806" selection-end-column="31" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="false" />
+            <element signature="e#177054#177055#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,6 +697,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="3799" column="32" lean-forward="false" selection-start-line="3799" selection-start-column="31" selection-end-line="3799" selection-end-column="32" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="false" />
+            <element signature="e#177054#177055#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -871,6 +868,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question56.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xu/leedcode/aug/n03/Question463.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
