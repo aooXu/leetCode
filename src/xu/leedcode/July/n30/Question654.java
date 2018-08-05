@@ -3,7 +3,7 @@ package xu.leedcode.July.n30;
 
 import javax.swing.tree.TreeNode;
 
-public class Question654 {
+/*public class Question654 {
 
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         return construt(nums, 0, nums.length-1);
@@ -27,3 +27,4 @@ public class Question654 {
         return root;
 
     }
+}*/

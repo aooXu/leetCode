@@ -1,10 +1,9 @@
-import xu.leedcode.day03.Question121;
+import xu.leedcode.aug.n05.Question438;
 
 public class Main {
     public static void main(String[] args){
-        Question121 q = new Question121();
-        int[] p = {7,1,5,3,6,4};
-        System.out.println(q.maxProfit(p));
+        Question438 q = new Question438();
+        System.out.println(q.findAnagrams("cbaebabacd", "abc"));
 
     }
 }
